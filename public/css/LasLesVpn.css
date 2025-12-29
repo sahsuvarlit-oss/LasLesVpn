@@ -1,0 +1,670 @@
+/* FOR GOOGLE FONTS */
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* FOR GOOGLE FONTS */
+
+
+/* HEADER START */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    gap: 40px;
+    display: flex;
+
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.header-links a:hover {
+    color: #F53838;
+    transition: 0.4s ease;
+}
+
+header div {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header div a {
+    text-decoration: none;
+}
+
+header div .sign-in-btn {
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header div .sign-up-btn {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #f53855;
+    color: #f53855;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+header div .sign-up-btn:hover {
+    background-color: #f53855;
+    color: #fff;
+    transition: 0.4s;
+}
+
+/* HEADER END */
+
+
+
+
+/* HERO SECTION START */
+.hero {
+    display: flex;
+    padding-top: 102px;
+}
+
+.hero .hero-left-side {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .hero-right-side {
+    padding-right: 20px;
+}
+
+.hero .hero-left-side h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.hero .hero-left-side h1 span {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.hero .hero-left-side article {
+    font-size: 16px;
+    color: #4F5665;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.hero .hero-left-side article span {
+    font-size: 16px;
+    color: #4F5665;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.hero .hero-left-side .get-started {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #f53855;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    position: relative;
+    bottom: -55px;
+}
+
+.hero .hero-left-side .get-started:hover {
+    color: #f53855;
+    background-color: #fff;
+    transition: 0.4s;
+    border: 1px solid #f53855;
+}
+
+.hero .hero-right-side img {
+    width: 650px;
+    height: 400px;
+}
+
+/* HERO SECTION END */
+
+
+
+/* Services Section Start */
+.items {
+    display: flex;
+    gap: 115px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 103px;
+}
+
+.item {
+    padding: 0 30px;
+    gap: 37px;
+    display: flex;
+    border-right: 2px solid #EEEFF2;
+}
+
+.item:last-child {
+    border-right: none;
+}
+
+.services .items article {
+    font-size: 25px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.services .items article span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+/* Services Section End */
+
+
+/* Features Section Start */
+
+.features {
+    display: flex;
+    padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 123px;
+}
+
+.features .features-right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 15px;
+}
+
+.features .features-right-side h2 {
+    font-weight: 500;
+    color: #0B132A;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.features .features-right-side article {
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 14px;
+    color: #4F5665;
+    display: inline-flex;
+    gap: 15;
+
+}
+
+.features .features-right-side .long {
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    font-size: 22px;
+}
+
+.features .features-left-side img {
+    width: 509px;
+    height: 415px;
+    padding-left: 15px;
+}
+
+/* Features Section End */
+
+
+/* Products Section Start */
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding-top: 180px;
+}
+
+.products .choose-plans {
+    text-align: center;
+
+}
+
+.products .choose-plans h1 {
+    color: #0B132A;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.products .choose-plans article {
+    color: #4F5665;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.products .month-plans {
+
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.products .month-plans .plan1 {
+    width: 330px;
+    height: 760px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.products .month-plans .plan1 h3,
+h4 {
+    color: #0B132A;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.products .month-plans .plan1 h3 {
+    font-size: 18px;
+}
+
+.products .month-plans .plan1 h4 {
+    font-size: 25px;
+}
+
+
+
+.products .month-plans .plan1 a {
+    width: 178px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #f53855;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #f53855;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+
+}
+
+.products .month-plans .plan1 a:hover {
+    background-color: #f53855;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.products .month-plans .plan1:hover {
+    border: 2px solid #F53838;
+    transition: 0.4s;
+}
+
+/* Standart Plan Start */
+
+.products .choose-plans h1 {
+    color: #0B132A;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.products .choose-plans article {
+    color: #4F5665;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.products .month-plans .plan2 {
+    width: 330px;
+    height: 760px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.products .month-plans .plan2 h3,
+h4 {
+    color: #0B132A;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+.products .month-plans .plan2 h4 span {
+    color: #4F5665;
+}
+
+.products .month-plans .plan2 h3 {
+    font-size: 18px;
+}
+
+.products .month-plans .plan2 h4 {
+    font-size: 25px;
+}
+
+.products .month-plans .plan2 a {
+    width: 178px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #f53855;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #f53855;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+
+}
+
+.products .month-plans .plan2 a:hover {
+    background-color: #f53855;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.products .month-plans .plan2:hover {
+    border: 2px solid #F53838;
+    transition: 0.4s;
+}
+
+/* Standart Plan End */
+
+/* Premium Plan Start */
+
+.products .choose-plans h1 {
+    color: #0B132A;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.products .choose-plans article {
+    color: #4F5665;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.products .month-plans .plan3 {
+    width: 330px;
+    height: 760px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.products .month-plans .plan3 h3,
+h4 {
+    color: #0B132A;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+.products .month-plans .plan3 h4 span {
+    color: #4F5665;
+}
+
+.products .month-plans .plan3 h3 {
+    font-size: 18px;
+}
+
+.products .month-plans .plan3 h4 {
+    font-size: 25px;
+}
+
+.products .month-plans .plan3 a {
+    width: 178px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #f53855;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #f53855;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+
+}
+
+.products .month-plans .plan3 a:hover {
+    background-color: #f53855;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.products .month-plans .plan3:hover {
+    border: 2px solid #F53838;
+    transition: 0.4s;
+}
+/* Premium Plan End */
+
+
+/* Products Section End */
+
+
+
+/* About Section Start */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .for-about {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.about .for-about h1 {
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.about .for-about article {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F5665;
+
+}
+
+.about .about-image {
+    padding-top: 130px;
+}
+
+.about .about-image img {
+    width: 1060px;
+    height: 538px;
+}
+
+.about .social-medias {
+    width: 1135px;
+    height: 208px;
+    padding-top: 35px;
+
+}
+
+/* About Section End */
+
+/* Subsicribe Section Start */
+
+.subsicribe {
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subsicribe .subsicribe-text {
+    padding-left: 70px;
+}
+
+.subsicribe .subsicribe-text h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+}
+
+.subsicribe .subsicribe-text article {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.subsicribe .subsicribe-btn a {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #f53855;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.subsicribe .subsicribe-btn a:hover {
+    background-color: #fff;
+    color: #f53855;
+    transition: 0.4s;
+    border: 2px solid #f53855;
+}
+
+/* Subsicribe Section End */
+
+
+
+/* Footer Start */
+
+footer {
+    background-color: #F8F8F8;
+}
+
+footer .footers {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer .footers .foot1 {
+    padding-top: 65px;
+
+}
+
+footer .footers .foot1 article {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+    color: #4F5665;
+}
+
+footer .footers .foot1 article span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+    color: #4F5665;
+}
+
+footer .footers a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    text-decoration: none;
+}
+
+footer .footers a:hover {
+    color: #F53838;
+    transition: 0.4s;
+}
+
+footer .footers .foot2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+footer .footers .foot3 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+footer .footers .foot4 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+footer .footers .foot1 {
+    padding-left: 25.5px;
+}
+
+footer .footers .foot4 {
+    padding-right: 26px;
+}
+
+/* Footer End */
